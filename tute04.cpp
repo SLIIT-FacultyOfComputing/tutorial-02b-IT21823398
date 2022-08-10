@@ -13,10 +13,10 @@ Do not modify the main function.*/
 
 #include<iostream>
 
-long Factorial(int n){              //calculate factorial
+long Factorial(int no){              //calculate factorial
   int i , fac = 1;
 
-  for(i = n ; i >= 1 ; i--){
+  for(i = no ; i >= 1 ; i--){
     fac = fac * i;
 
   }
